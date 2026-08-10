@@ -4,7 +4,7 @@ import random
 #Simulation parameters
 current_time = 0.0
 
-simulation_duration = 10.0
+simulation_duration = 60
 
 working_time = 0
 
@@ -15,8 +15,6 @@ cashier_busy = False
 customers_served = 0
 
 next_arrival_time = random.uniform(1, 4)
-
-
 
 
 while current_time < simulation_duration:
