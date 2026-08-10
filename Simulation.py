@@ -16,6 +16,8 @@ customers_served = 0
 
 next_arrival_time = random.uniform(1, 4)
 
+test = True
+
 
 while current_time < simulation_duration:
     current_time += 1
